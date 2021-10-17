@@ -1,12 +1,36 @@
 dwm - dynamic window manager
 ============================
+My personal build of dwm.
+
 dwm is an extremely fast, small, and dynamic window manager for X.
+
+This build includes these patches:
+autostart
+statusallmons
+multimon-1-added-monitor-marker-to-bar
+multimon-2-added-n-view-wrappers-for-unified-multi-monitor.diff
+dwm-fibonacci-6.2
+dwm-sticky
+
+The default terminal command runs the script terminal.sh from the .dwm directory. 
+Changes as required before compilation. This makes it easier to switch terminals 
+without having to wade into the dwm config each time.
+
+The build includes these patches of which details can be found at the suckless site 
+(https://dwm.suckless.org/patches/):
+
+autostart
+statusallmons
+multimon-1-added-monitor-marker-to-bar
+multimon-2-added-n-view-wrappers-for-unified-multi-monitor.diff
+dwm-fibonacci-6.2
+dwm-sticky
 
 
 Requirements
 ------------
 In order to build dwm you need the Xlib header files.
-
+fonts: Terminus, Iosveka
 
 Installation
 ------------

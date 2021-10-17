@@ -14,7 +14,8 @@ dwm-sticky
 
 The default terminal command runs the script terminal.sh from the .dwm directory. 
 Changes as required before compilation. This makes it easier to switch terminals 
-without having to wade into the dwm config each time.
+without having to wade into the dwm config each time. Several other shortcuts 
+and commands exist that are specific to my own systems. Amend as desired.
 
 The build includes these patches of which details can be found at the suckless site 
 (https://dwm.suckless.org/patches/):
